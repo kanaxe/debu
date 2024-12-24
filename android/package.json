@@ -1,0 +1,28 @@
+{
+  "name": "ai-robot-control",
+  "main": "app/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "~8.5.0",
+    "@nativescript/bluetooth": "~2.1.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-core": "^4.22.0",
+    "@tensorflow/tfjs-converter": "^4.22.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.22.0",
+    "@tensorflow-models/coco-ssd": "~2.2.2",
+    "@tensorflow-models/face-detection": "~1.0.1",
+    "sqlite-sync": "~0.3.9"
+  },
+  "devDependencies": {
+    "@nativescript/android": "~8.5.0",
+    "@nativescript/types": "~8.5.0",
+    "@nativescript/webpack": "~5.0.14",
+    "@nativescript/preview-cli": "~1.0.2",
+    "typescript": "~4.8.4",
+    "tailwindcss": "~3.3.2"
+  },
+  "scripts": {
+    "preview": "npx @nativescript/preview-cli preview"
+  }
+}
