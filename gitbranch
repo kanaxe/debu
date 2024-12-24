@@ -1,6 +1,0 @@
-git checkout -b feature/iredcsarya/2 
-git push --set-upstream origin feature/iredcsarya/2
-git add . 
-git commit -m "Enum Altyapısı kuruldu #2"
-git push
-
